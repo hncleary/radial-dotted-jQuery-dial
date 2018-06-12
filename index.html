@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"/>
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="theme-color" content="#FFB300" />
+  <title>Dotted Radial Dial</title>
+  <link rel="stylesheet" href="./reset.css">
+  <link rel="stylesheet" href="./styles.css">
+  <!-- <link rel="manifest" href="./manifest.json"> -->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,medium&amp;lang=en" rel="stylesheet" type="text/css"> -->
+  <!--original links-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link type="text/css" href="css/themename/jquery-ui-1.7.1.custom.css" rel="Stylesheet" />
+  <!-- jquery stuff -->
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <!-- -->
+  <link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+  <link href="jquery.rotaryswitch.css" rel="stylesheet" type="text/css">
+
+</head>
+
+
+
+<body>
+
+<div class="myBoxOverview">
+
+
+          <center>
+            <div class="overviewPointer">
+              <div id="draggable" >
+                <!-- <img src="images/Overview/overviewWheelPointerx.png"> -->
+              </div>
+            </div>
+          </center>
+
+
+
+
+          <div class="OverviewInfoWheel">
+            <!-- <span class="dotSpace"> </span> -->
+            <img src="images/Overview/overviewInfoWheel.png" height = 395px>
+          </div>
+
+          <div class="OverviewInfoWheel2">
+            <!-- <span class="dotSpace"> </span> -->
+            <img src="images/Overview/overviewInfoWheel.png" height = 395px>
+          </div>
+
+
+          <div class="knobBox">
+            <input type="text" class="rotarySwitch"  value="0" >
+          </div>
+
+          <div class="knobBox2">
+            <input type="text" class="rotarySwitch2"  value="0" >
+          </div>
+
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./app.js"></script>
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="scripts.js">  </script>
+
+    <!-- -->
+    <!-- -->
+
+
+    <script src="http://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="jquery.rotaryswitch.js"></script>
+    <script>
+    $(function() {
+
+    	$('.rotarySwitch').rotaryswitch({showMarks: true,themeClass: 'big', minimum:0, maximum:12});
+      $('.rotarySwitch2').rotaryswitch({showMarks: true,themeClass: 'big', minimum:0, maximum:6});
+
+      /*
+      rotarySwitch3a.on('change', function() {
+          rotarySwitch3b.val(rotarySwitch3a.val()).change();
+    });
+    */
+    });
+    </script>
+
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-36251023-1']);
+      _gaq.push(['_setDomainName', 'jqueryscript.net']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>
+
+    <!-- -->
+    <script>
+    console.log("Scripts have been loaded woop dee doo");
+    // console.log("ok whats the deal here?");
+    </script>
+    <!-- -->
+
+  </body>
+  </html>

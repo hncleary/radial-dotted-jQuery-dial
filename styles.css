@@ -1,0 +1,95 @@
+
+body {
+  font-family: 'Roboto',Helvetica,Arial,sans-serif;
+  background: linear-gradient(#FEFEFE, #c6c4c4);
+  height: 800px
+}
+
+header {
+  padding: 0px 3px 0 0;
+  height: 56px;
+  width: 700px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.19);
+  background-color:  white;
+  position: fixed;
+  top: 0;
+}
+
+.OverviewInfoWheel{
+  margin-top: 160px;
+  margin-left: 150px;
+  z-index: 6px;
+  position: absolute;
+
+}
+.OverviewInfoWheel2{
+  margin-top: 160px;
+  margin-left: 690px;
+  z-index: 6px;
+  position: absolute;
+
+}
+
+.overviewPointer{
+ margin-top:0px;
+  width: 550px;
+  height: 600px;
+  radius:50%;
+  z-index: 1;
+  position:absolute;
+  margin-left: 75px;
+  //background-color: grey;
+  border-radius: 50%;
+}
+
+.overviewCircuitSelectorLeft {
+  margin-top: 45px;
+  //margin-left: -4px;
+  //padding-left: -4px;
+  margin-right: -4px;
+  padding-right: -4px;
+  z-index: 5;
+}
+
+.overviewCircuitSelectorRight {
+  margin-top: 45px;
+  margin-left: -4px;
+  padding-left: -4px;
+  //margin-right: -4px;
+  //padding-right: -4px;
+  z-index: 5;
+}
+
+.overviewCircuitSelectorLeft:hover{
+  border-left: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  // border-top: 4px solid red;
+  // border-bottom: 4px solid red;
+}
+
+.overviewOffButton:hover {
+  border-right: 1px solid black;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+
+}
+
+.knobBox{
+  z-index: 6;
+  //position: inherit;
+  transform: scale(1);
+  position: absolute;
+  left: 58px;
+  top: 65px;
+}
+
+.knobBox2{
+  z-index: 6;
+  //position: inherit;
+  transform: scale(1);
+  position: absolute;
+  left: 600px;
+  top: 65px;
+}
